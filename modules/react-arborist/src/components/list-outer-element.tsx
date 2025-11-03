@@ -14,9 +14,6 @@ export const ListOuterElement = forwardRef(function Outer(
       // @ts-ignore
       ref={ref}
       {...rest}
-      onClick={(e) => {
-        if (e.currentTarget === e.target) tree.deselectAll();
-      }}
     >
       <DropContainer />
       {children}

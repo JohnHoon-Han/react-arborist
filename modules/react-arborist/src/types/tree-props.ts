@@ -29,7 +29,7 @@ export interface TreeProps<T> {
   rowHeight?: number;
   overscanCount?: number;
   width?: number | string;
-  height?: number;
+  height?: number | string;
   indent?: number;
   paddingTop?: number;
   paddingBottom?: number;

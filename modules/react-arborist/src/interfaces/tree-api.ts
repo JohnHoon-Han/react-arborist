@@ -67,11 +67,11 @@ export class TreeApi<T> {
 
   /* Tree Props */
 
-  get width() {
+  get width(): number | string {
     return this.props.width ?? 300;
   }
 
-  get height() {
+  get height(): number | string {
     return this.props.height ?? 500;
   }
 
